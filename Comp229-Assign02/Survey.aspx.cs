@@ -13,5 +13,14 @@ namespace Comp229_Assign02
         {
 
         }
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                Session["FName"] = FirstNameTxt.Text;
+                Session["LName"] = LastNameTxt.Text;
+                Response.Redirect("Thanks.aspx");
+            }
+        }
     }
 }

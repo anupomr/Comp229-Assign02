@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <%-- Name : Anupom Roy 
      Student ID : 300853516
-     Date : October 02, 2017
-     Version : v.1.1 Landing Page Created
+     Date : October 06, 2017
+     Version : v.1.2 Survey Page Created
     --%>
 <html lang="en">
 <head runat="server">
