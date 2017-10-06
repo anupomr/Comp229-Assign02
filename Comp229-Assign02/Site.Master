@@ -4,13 +4,13 @@
 <%-- Name : Anupom Roy 
      Student ID : 300853516
      Date : October 06, 2017
-     Version : v.1.2 Survey Page Created
+     Version : v.1.3 Thanks Page Created
     --%>
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Survey Solution</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
