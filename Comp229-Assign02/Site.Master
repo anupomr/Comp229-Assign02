@@ -1,7 +1,11 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Comp229_Assign02.SiteMaster" %>
 
 <!DOCTYPE html>
-
+<%-- Name : Anupom Roy 
+     Student ID : 300853516
+     Date : October 02, 2017
+     Version : v.1.1 Landing Page Created
+    --%>
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -52,8 +56,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Survey">Survey</a></li>
+                        <li><a runat="server" href="~/Thanks">Thank You</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +67,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Anupom Roy Comp-229F Centennial College</p>
             </footer>
         </div>
 
