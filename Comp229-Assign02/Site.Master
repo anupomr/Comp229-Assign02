@@ -4,7 +4,7 @@
 <%-- Name : Anupom Roy 
      Student ID : 300853516
      Date : October 06, 2017
-     Version : v.1.3 Thanks Page Created
+     Version : v.1.4 Site Master Modified
     --%>
 <html lang="en">
 <head runat="server">
@@ -51,7 +51,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                     <a class="navbar-brand" href="https://www.linkedin.com">
+                            <img alt="Brand" src="Assets/LIn.png" width="30" height="30"/> </a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
