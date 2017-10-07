@@ -1,0 +1,18 @@
+﻿body {
+    background-color: #4684B9;
+}
+#allPage {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #777201;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #777201;
+    padding: 00px;
+    padding-top: 8px;
+    padding-right: 80px;
+    padding-bottom: 8px;
+    padding-left: 80px;
+    background-color: azure;
+    opacity: 0.9;
+}

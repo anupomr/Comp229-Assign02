@@ -4,7 +4,7 @@
 <%-- Name : Anupom Roy 
      Student ID : 300853516
      Date : October 06, 2017
-     Version : v.1.5 Landing page  Modified
+     Version : v.1.6 Style Sheet Created
     --%>
 <html lang="en">
 <head runat="server">
@@ -18,9 +18,10 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Content/app.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="allPage">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -73,5 +74,6 @@
         </div>
 
     </form>
+        </div>
 </body>
 </html>
